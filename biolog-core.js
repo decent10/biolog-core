@@ -1,7 +1,7 @@
 biolog = {
 
 };
-
+biolog.Bioontology = Bioontology;
 biolog.BiologUtil = {
     isNumber: function(n) {
         return !isNaN(parseFloat(n)) && isFinite(n);
